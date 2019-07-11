@@ -79,7 +79,7 @@ def encrip_G_M(m1,a1,N1):    ##### Cifra el mensaje el codigo binario (ya cifrad
 
     return c
 
-def binario(m1):                     #### Convierte una lista de co a un numero en base 10 ####
+def binario(m1):                     #### Convierte una lista de codigo binario a un numero en base 10 ####
     X=[]
     for i in range(0,len(m1)):
         x = 2 ** i
